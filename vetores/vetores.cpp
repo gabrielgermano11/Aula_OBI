@@ -3,17 +3,15 @@
 using namespace std;
 
 int main (void){
-    int n;
-    cout << "quantos inteiros vc vai escrever";
-    cin << n;
+    int n = 3;
+    int vec[n] = {0, 1, 2};
 
-    int v[n];
-    for(int i = 0; i < n; i++){
-        cin >> v[i] ;
+    
+    for(int i = 0; i < 3; i++){
+        cout << vec[i] << "\n";
     }
-   
-    cout << i;
-    
-    
-    return 0;
+
+
+return 0;
 }
+   
